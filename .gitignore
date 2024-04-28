@@ -29,6 +29,9 @@
 *.dylib
 
 # Executables
+*
+!/**/
+!*.*
 *.exe
 *.out
 *.app
@@ -41,6 +44,10 @@
 *.su
 *.idb
 *.pdb
+
+# Specific file
+test.c
+TODO.txt
 
 # Kernel Module Compile Results
 *.mod*
